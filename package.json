@@ -1,0 +1,10 @@
+{
+  "name": "soa-ws-tasks",
+  "version": "0.0.1",
+  "licence": "UNLICENCEND",
+  "repository": "https://github.com/DexterIA/soa-ws-tasks.git",
+  "description": "Some tasks of the soa-ws subject.",
+  "dependencies": {
+
+  }
+}
