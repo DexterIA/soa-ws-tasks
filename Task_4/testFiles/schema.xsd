@@ -15,7 +15,7 @@
             <xsd:sequence>
                 <xsd:element name='name' type='xsd:string'/>
                 <xsd:element name='email' type='emailAddress'/>
-                <xsd:element name='birthday' type='xsd:string'/>
+                <xsd:element name='birthday' type='xsd:date'/>
                 <xsd:element name='gender' type='xsd:string'/>
                 <xsd:element name='limbs' type='xsd:string'/>
                 <xsd:element name='superpowers' type='superpowersType'/>

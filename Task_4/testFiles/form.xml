@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <hero>
-    <name>12312</name>
-    <email>lexbritvin@gmail.com</email>
-    <birthday>1995</birthday>
-    <gender>female</gender>
+    <name>Alexey</name>
+    <email>dexterrrria@gmail.com</email>
+    <birthday>1992-12-19</birthday>
+    <gender>male</gender>
     <limbs>4</limbs>
     <superpowers>
-        <ability>walking through walls</ability>
+        <ability>hell of laziness</ability>
         <ability>invisibility</ability>
     </superpowers>
     <biography>124</biography>

@@ -1,8 +1,15 @@
-var xsd = require('libxml-xsd');
+var validator = require('xsd-schema-validator'),
+  fs = require('fs');
 
-xsd.parseFile(schemaPath, function(err, schema){
-  schema.validate(documentString, function(err, validationErrors){
-    // err contains any technical error
-    // validationError is an array, null if the validation is ok
-  });
+fs.readFile('./testFiles/form.xml', 'utf8', function (err, data) {
+  validate(data.toString());
 });
+
+function validate (xml) {
+  validator.validateXML(xml, './testFiles/schema.xsd', function (err, result) {
+    if (err) {
+      throw err;
+    }
+    console.log(result.valid);
+  });
+}
