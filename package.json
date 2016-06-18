@@ -5,6 +5,7 @@
   "repository": "https://github.com/DexterIA/soa-ws-tasks.git",
   "description": "Some tasks of the soa-ws subject.",
   "dependencies": {
+    "xmlrpc": "^1.3.2",
     "xsd-schema-validator": "^0.3.1"
   }
 }
